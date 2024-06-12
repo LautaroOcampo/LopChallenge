@@ -1,0 +1,125 @@
+/* PRIMER LIST COLLECTION */
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding{
+  padding-bottom: 5px !important
+}
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding .collection-list .card__content{
+    width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding .collection-list .card__information{
+   width: 100%;
+  height: 100%;
+}
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding .collection-list .card__heading{
+  width: 100%;
+  height:100%;
+}
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding .collection-list .card__content a{
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+    font-size: 3rem;
+    color: white;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 1000px) {
+
+.section-template--22869393015075__collection_list_Fpzjwp-padding{
+  padding-bottom: 40px !important
+}
+  
+.section-template--22869393015075__collection_list_Fpzjwp-padding .collection-list {
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+}
+.section-template--22869393015075__collection_list_Fpzjwp-padding .slick-prev,
+.section-template--22869393015075__collection_list_Fpzjwp-padding .slick-next {
+  background-color: #fff;
+  border: none;
+}
+.section-template--22869393015075__collection_list_Fpzjwp-padding .slick-dots {
+  grid-column: 1 / 4;
+  justify-self: center;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+.slick-dots li {
+  list-style: none;
+}
+.slick-dots li button{
+ border-radius: 50%;
+ color: transparent;
+ width: 14px;
+ height: 14px;
+ border: .5px solid #2b2d38;
+  
+}
+li.slick-active > button {
+  background-color: #2b2d38;
+}
+}
+
+
+/* SEGUNDO LIST-COLLECTION */
+
+.section-template--22869393015075__collection_list_gAhT3N-padding{
+  padding-top: 5px !important
+}
+
+.section-template--22869393015075__collection_list_gAhT3N-padding .card__inner {
+  height: 273px !important;
+}
+
+.section-template--22869393015075__collection_list_gAhT3N-padding .collection-list .card__content{
+    width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.section-template--22869393015075__collection_list_gAhT3N-padding .collection-list .card__information{
+   width: 100%;
+  height: 100%;
+}
+
+.section-template--22869393015075__collection_list_gAhT3N-padding .collection-list .card__heading{
+  width: 100%;
+  height:100%;
+}
+
+.section-template--22869393015075__collection_list_gAhT3N-padding .collection-list .card__content a{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+    font-size: 4rem;
+    color: white;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .section-template--22869393015075__collection_list_gAhT3N-padding .card__inner {
+    height: 195px !important;
+  }
+  .section-template--22869393015075__collection_list_gAhT3N-padding ul{
+      gap: 20px;
+  }
+}
+}
+
+
+
