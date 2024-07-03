@@ -243,7 +243,9 @@
             </button>
           </li>
         {%- endif -%}
+        {% assign contador = 0 %}
         {%- for media in product.media -%}
+          {% if contador < 4 %}
           {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
             {%- liquid
               capture media_index
@@ -301,6 +303,8 @@
               </button>
             </li>
           {%- endunless -%}
+          {% assign contador = contador | plus: 1 %}
+          {% endif %}
         {%- endfor -%}
       </ul>
       <button
